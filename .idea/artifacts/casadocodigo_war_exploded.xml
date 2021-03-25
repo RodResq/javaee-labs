@@ -13,6 +13,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="casadocodigo" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.18" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/casadocodigo/META-INF/MANIFEST.MF" />

@@ -8,14 +8,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Lob;
 
-@Entity
+//@Entity
 public class Livro {
 
-	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+//	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 	
 	private String titulo;
-	@Lob
+//	@Lob
 	private String descricao;
 	private BigDecimal preco;
 	private Integer numeroPaginas;

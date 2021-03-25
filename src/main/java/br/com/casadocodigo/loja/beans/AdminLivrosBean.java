@@ -14,12 +14,12 @@ public class AdminLivrosBean {
 	
 	private Livro livro = new Livro();
 	
-	@Inject
-	private LivroDao dao;
+//	@Inject
+//	private LivroDao dao;
 
 	@Transactional
 	public void salvar() {
-		dao.salvar(livro);
+//		dao.salvar(livro);
 		System.out.println("Livro Cadastrado: " + livro);
 	}
 
